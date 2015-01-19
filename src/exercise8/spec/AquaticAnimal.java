@@ -1,5 +1,9 @@
-package exercise8;
-public abstract class AquaticAnimal extends AnimalAbst{
+package exercise8.spec;
+
+import exercise8.impl.AnimalImpl;
+
+
+public abstract class AquaticAnimal extends AnimalImpl{
 
 	public AquaticAnimal(String name) {
 		super(name);

@@ -1,7 +1,11 @@
-package exercise8;
-public class Bear extends LandAnimal implements Mammal{
+package exercise8.impl;
 
-	public Bear() {
+import exercise8.spec.LandAnimal;
+import exercise8.spec.LiveBirthing;
+
+public class BearImpl extends LandAnimal implements LiveBirthing{
+
+	public BearImpl() {
 		super("Bear");
 	}
 
